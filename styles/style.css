@@ -1,0 +1,177 @@
+header {
+    background-color: cadetblue;
+    background-size: cover;
+    height: 10vh;
+    width: 100vw;
+    object-fit: contain;
+    margin-block-end: 30px;
+
+}
+
+body {
+    margin-right: 40px;
+}
+
+
+h1 {
+    font-family: 'Times New Roman', Times, serif;
+    text-align:start;
+    font-size: 48px;
+    color:  #eaeeee;
+    padding-top: 30px;
+    text-shadow: 1px 2px #999;
+    margin-left: 140px;
+
+}
+
+h2 {
+    font-family:Arial, Helvetica, sans-serif;
+    text-align: center;
+    color: cadetblue;
+    font-size: 35px;
+   
+
+}
+
+h3{
+    font-family:Arial, Helvetica, sans-serif ;
+    text-align: center;
+    color:cadetblue;
+    font-size: 35px;
+    padding-top: 10px;
+}
+
+p {
+    font-family: Arial, Helvetica, sans-serif ;
+    text-align: center;
+    font-size: 22px;
+    padding-top:10px;
+    color: #ACADAD;
+}
+
+hr {
+    color: #acadad2f;
+}
+.vermas {
+    text-align: center;
+    margin-top: 30px;
+    background-color: cadetblue;
+    text-decoration: #ACADAD;
+    border: 1px solid rgba(95, 158, 160, 0.342);
+    padding: 8px;
+    color: #e9e9e9;
+    border-radius: 15px;
+
+}
+
+a {
+    text-decoration: #ACADAD;
+    text-decoration-color: #ACADAD;
+    color: #ebebeb;
+
+}
+
+img {
+    width: 400px;
+    margin-left: 80px;
+    margin-right: 80px;    
+  }
+
+.primer {
+
+    column-count: 2;
+    align-items: center;
+    display: flex;
+    justify-content: space-around;
+    
+
+
+}
+
+.hola {
+    width: 40%;
+    text-align: center;
+ 
+}
+
+.fotodcha {
+    column-count: 2;
+    align-items: center;
+    display: flex;
+    justify-content: space-around;
+    margin-left: 100px;
+}
+
+.fotoizq {
+    column-count: 2;
+    align-items: center;
+    display: flex;
+    justify-content: space-around;
+    margin-right: 100px;
+}
+
+.a {
+    align-content: center;
+    
+    margin-top: 50px;
+    margin-bottom: 80px;
+    padding: 50px;
+}
+
+.icons {
+    width: 30px;
+    display: flexbox;
+    justify-content: flex-start;
+}
+
+section {
+    margin-top: 80px;
+    box-shadow: 10px 5px 5px rgb(230, 222, 222);
+
+}
+
+.enlace {
+    text-align: center;
+    margin: 50px;
+}
+
+
+
+
+#final {
+    display: flex;
+    text-emphasis-position: space-around;
+    justify-content: space-around;
+    align-content: space-around;
+    margin: 40px;
+    padding: 20px;
+    text-emphasis-color:rgb(80, 80, 80) ;
+    text-decoration-color:cadetblue
+
+}
+@keyframes animation {
+    0%{
+        width: 400px;
+    }
+    30%{
+        width: 600px;
+    }
+}
+.prueba:hover {
+    animation: scale 2s;
+}
+@keyframes scaleButton {
+    0%{
+        transform: scale(1);
+    }
+    
+    50%{
+        transform: scale(2);
+    }
+}
+.vermas:hover{
+
+    animation: scaleButton 2s;
+    -webkit-animation: scaleButton 2s;
+    -moz-animation: scaleButton 2s;
+}
